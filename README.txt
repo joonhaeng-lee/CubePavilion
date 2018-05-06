@@ -1,5 +1,6 @@
 """
 Perfect Minimum N Cube
+2018-05
 
 Joonhaeng Lee
 
