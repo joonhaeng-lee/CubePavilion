@@ -1,0 +1,27 @@
+"""
+Perfect Minimum N Cube
+Joonhaeng Lee
+2018-05
+"""
+
+Perfect Minimum N Cube List Representaton :
+
+3 dimensional geometry PMNC could be verticaly grouped to N layers. Each layers have N cubes inside.
+PMNC folows below list representation rules.
+
+1.  List Z and List Y
+	List Z: whole PMNC geometry list contains N List Y.
+	List Y: single horizonal layer list contains N unique interger values in range of (0,n-1).
+
+2.  Y[i] in Z should have unique integer valuse in range of (0,n-1).
+
+
+PMNC example:
+
+N  = 3
+
+Y  = [0, 2, 1]
+Y' = [2, 1, 0]
+Y''= [1, 0, 2]
+
+Z = [[0, 2, 1], [2, 1, 0], [1, 0, 2]]

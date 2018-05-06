@@ -1,33 +1,21 @@
 """
 Perfect Minimum N Cube
-2018-05
-
 Joonhaeng Lee
-
-"Perfect Minimum N Cube" concept was developed during pavilion design project on yonsei university architectural design studio 3, 2010.
-Initially, possible combination of Perfect Minimum N cube (n = 4) were hand calculated with help of Kangdacool.
-2016, development of code started to generate possible combination of Perfect Minimum N Cube.
-
+2018-05
 """
 
-"""
+Perfect Minimum N Cube is combination of cubes on 3D space which satisfies following conditions. 
 
-N : integer
+1. N is integer variable.
+2. The geometry is a combination of size 1 cube , every edges are alined to X or Y or Z direction.
+3. The number of cubes is N*N .
+4. When the geoemtry projected on XY,YZ,XZ plane, it's boundary becomes perfect length N square.
 
-Cube: Cube which edges length are 1. Cube exist on 3 dimentional space and all of it's edges are on X = c,y = c ,or Z = c. 
+The concept of Perfect Minimum N Cube was developed during pavilion design project on yonsei university architectural design studio 3, 2010. The geometry could be read as N*N*N size cube cloud with only N*N cubes.
+Initially, possible combination of Perfect Minimum N cube when n=4 were hand calculated with help of Kangdacool.
+2016, development of code started to generate disirable combinations of Perfect Minimum N Cube.
 
-NCube: Group of Cubes, contains N*N*N Cubes. length of each edge on NCube are N.
-
-SubNCube: subgroup of NCube.
-
-Perfect: let's difine SubNCube is "PERFECT" When projected SubNCube on Xy, yZ, XZ plane makes full N*N size square without empty space.
-
-Perfect Minimum N Cube: SubNCube which is Perfect and have N*N Cubes.
-
-Perfect Minimum N Cube representation: 
-Perfect Minimum N Cube is reperesented by nested List Z. 
-Z = [ y0,y1,y2,...,y(N-1) ]
-
-Each List yk have N unique numbers in range of (0, n-1) 
-
-"""
+Please read following files for further understanding.
+*PerfectMinimumNCube list representation
+*perfectMinimumNCube Samples
+*
